@@ -1,0 +1,79 @@
+body {
+    font-family: Palatino, URW Palladio L, serif;
+    background: url("../images/bg.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+nav {
+    box-shadow: -6px 9px 39px 4px rgba(0, 0, 0, 1);
+}
+
+.account-wall, .content-holder {
+    border-radius: 3px;
+    box-shadow: -6px 9px 39px 4px rgba(0, 0, 0, 1)
+}
+
+.account-wall {
+    padding: 40px 0 20px 0;
+    background: rgba(255,255,255,0.7);
+}
+
+.content-holder {
+    padding: 40px;
+    background: rgba(255,255,255,0.85);
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.form-signin .form-control:focus { z-index: 2 }
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.form-signin input[type="text"] { margin-bottom: -1px }
+.form-signin input[type="password"] { margin-bottom: 10px }
+.logo-holder { width: 50%; }
+
+.nav-link {color: #000; !important;}
+
+#members li a,
+.set-leader{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.no-of-reports {
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.nav-item:hover,
+.active {
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#cg-members, #cluster-reports { cursor: pointer; }
+ul, #add-member { list-style-type: none; }
+#consolidation-report { height: 200px; }
+.text-white:hover, .active{ color: #007bff !important; }
+.for-c2s { display: none;}
+.img-holder { width: 100px; }
